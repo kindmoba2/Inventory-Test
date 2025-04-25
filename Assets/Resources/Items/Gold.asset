@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a991cf83d35e2e48a4cdbe7b952a36e, type: 3}
+  m_Name: Gold
+  m_EditorClassIdentifier: 
+  ID: 0
+  ItemName: "\u0417\u043E\u043B\u043E\u0442\u043E"
+  Type: 0
+  Icon: {fileID: -308666846, guid: ed559d978342bd04d803c1ff3df5d8ef, type: 3}
+  MaxStack: 750
