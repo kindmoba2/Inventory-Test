@@ -111,7 +111,7 @@ public class InventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         if (isDrag) return;//волочим предмет, не надо подсказку
 
         if (currentItem != null)
-            ItemTooltip.Show(currentItem, transform.position + Vector3.up * 50);
+            ItemTooltip.Show(currentItem, transform.position + Vector3.up * 5);
     }
 
     public void OnPointerExit(PointerEventData eventData)
