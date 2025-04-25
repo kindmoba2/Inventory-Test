@@ -11,4 +11,5 @@ public class ItemData : ScriptableObject
     public ItemType Type;
     public Sprite Icon;
     public int MaxStack = 1;
+    public AudioClip dropClip;
 }

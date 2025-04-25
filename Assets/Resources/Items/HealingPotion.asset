@@ -17,3 +17,4 @@ MonoBehaviour:
   Type: 1
   Icon: {fileID: 7410662, guid: ed559d978342bd04d803c1ff3df5d8ef, type: 3}
   MaxStack: 2
+  dropClip: {fileID: 8300000, guid: 09b17a4dcf9fe1845a0e2565e82a2dc2, type: 3}

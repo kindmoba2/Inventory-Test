@@ -12,12 +12,13 @@ public class InventoryManager : MonoBehaviour
 
     private const string SaveKey = "InventoryData";
 
+    public AudioSource audioSource;
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            //DontDestroyOnLoad(gameObject);
         }
         else
         {

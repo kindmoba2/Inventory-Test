@@ -88,6 +88,11 @@ public class InventorySlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         Destroy(GetComponent<GraphicRaycaster>());
         Destroy(GetComponent<Canvas>());
 
+        if(currentItem.Data.dropClip!=null)
+        {
+            InventoryManager.Instance.audioSource.PlayOneShot(currentItem.Data.dropClip);
+        }
+
 
         tween?.Kill();
         InventoryManager.Instance.OnInventoryChanged?.Invoke();
